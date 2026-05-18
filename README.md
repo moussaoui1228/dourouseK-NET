@@ -16,47 +16,6 @@ Tech Stack
     Database & Auth: Supabase
     Language: TypeScript
 
-Getting Started
-Prerequisites
-
-    Node.js 18.x or later
-    npm or yarn
-    A Supabase account and project
-
-Installation
-
-    Clone the repository:
-
-    git clone https://github.com/yourusername/dourousek_net.git
-    cd dourousek_net
-
-    Install dependencies:
-
-    npm install
-
-    Set up Environment Variables: Create a .env.local file in the root directory and add your Supabase credentials:
-
-    NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
-
-    Initialize Database:
-        Option A (SQL Editor): Run the SQL scripts located in the /supabase directory within your Supabase SQL editor to set up the schema.
-        Option B (Browser Seed): Once the app is running, navigate to /seed to automatically create demo professor accounts.
-
-    Run the development server:
-
-    npm run dev
-
-    Open http://localhost:3000 with your browser to see the result.
-
-Seeding Data
-
-To quickly get started with sample data, DourousNet includes a built-in seeding utility:
-
-    Ensure your Supabase environment variables are set.
-    Visit http://localhost:3000/seed in your browser.
-    Click the "Créer les 4 professeurs" button to automatically populate your database with expert demo profiles.
-
 Project Structure
 
     src/app: Next.js App Router pages and layouts.
